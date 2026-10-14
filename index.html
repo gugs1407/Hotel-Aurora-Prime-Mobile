@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Gravitas+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="inicio">
+        <h1>Hotel Aurora Prime</h1>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#reserva">Faça sua reserva</a>
+        <a href="#fotos">Fotos</a>
+        <a href="#contatos">Contatos</a>
+    </nav>
+
+    <main>
+        <section id="reserva">
+            <h2>Faça sua reserva</h2>
+
+            <fieldset>              
+                <label for="campo-entrada">Data de Entrada:</label>
+                <input type="text" name="q" id="campo-entrada">
+                <br>
+                <label for="campo-saida">Data de Saída:</label>
+                <input type="text" name="email" id="campo-saida">
+                <br>
+                <label for="campo-numHospedes">Número de Hóspedes:</label>
+                <input type="number" name="numHospedes" id="campo-numHospedes">
+                <br>
+                <label for="campo-acomodacao">Acomodação:</label>
+                <select name="acomodacao" id="campo-acomodacao">
+                    <option value="simples">Simples</option>
+                    <option value="dupla">Dupla</option>
+                    <option value="suite">Suite</option>
+                </select>
+                <br>
+                <button type="submit">Reservar Agora</button>
+                <button type="reset">Limpar Tudo</button>
+            </fieldset>
+        </section>
+
+        <section id="sobreHotel">
+            <h2>Conheça nosso Hotel</h2>
+            <p id="descrisao">O Hotel Aurora Prime foi criado para proporcionar uma esperiência única de hospedagem, unindo conforto, elegência e um atendimento de qualidade. Seja para uma viagem de negócios, férias em família ou uma escapada especial, oferecemos um ambiente acolhedor para que cada momento da sua da sua estadia seja inesquecível. </p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHDJXTN_DYtFSdhPtMdWOCPQuvyXFx5jPWiuFMWi3G0g&s=10" alt="Foto do Hotel Aurora Prime">
+        </section>
+    </main>
+
+    <footer id="contatos">
+        <h2>Contatos:</h2>
+    </footer>
+        
+</body>
+</html>
